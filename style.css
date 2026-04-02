@@ -1,0 +1,111 @@
+body{
+    font-family: "Segoe UI", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: ghostwhite;
+}
+
+header{
+    background-color: #252525;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav a{
+    color: gray;
+    text-decoration: none;
+    margin: 0.1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    background-color: aliceblue; 
+}
+
+nav a:hover{
+    background-color: rgb(206, 208, 209);
+}
+
+main{
+    width: 78%;
+    margin: 3rem auto
+}
+
+.categoria{
+    background-color: rgb(184, 181, 181);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-content: center;
+    text-align: center;
+}
+
+.categoria img{
+    max-width: 80%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.preco{
+    font-weight: bold;
+    color: black;
+    margin-bottom: 1rem;    
+}
+
+.adicionar{
+    background-color: gainsboro;
+    color: black;
+    border: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer
+}
+
+.adicionar:hover{
+    background-color: rgb(202, 200, 200);
+}
+
+#pedido{
+    background-color: rgb(184, 181, 181);
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+#lista-pedido{
+    list-style: none;
+    padding: 0;
+}
+
+#finalizar-pedido{
+    background-color: gainsboro;
+    color: black;
+    border: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer
+}
+
+#finalizar-pedido:hover{
+    background-color: rgb(202, 200, 200);    
+}
+
+#suporte{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.redes-sociais a{
+    background-color: rgb(184, 181, 181);
+    color: black;
+    display: inline;
+    padding: 0.4rem 0.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 0.5rem;
+}
+
+footer{
+    background-color: #252525;
+    padding: 0;
+    text-align: center;
+    color: gainsboro;
+}

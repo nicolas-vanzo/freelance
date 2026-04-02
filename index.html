@@ -3,10 +3,86 @@
 <head>
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <title>Page Title</title>
+    <title>Freelancer</title>
     <link rel='stylesheet' href='style.css'>
 </head>
 <body>
-    
+    <!-- Cabeçalho-->
+    <header class="banner">
+        <div class="banner-content">
+            <h1>Busca de Freelancer</h1>
+            <p>Contratação de Freelancer</p>
+            <nav>
+                <a href="">Serviços</a>
+                <a href="">Como Funciona</a>
+                <a href="">Suporte</a>             
+            </nav>
+        </div>
+    </header>
+
+    <!-- Corpo da Página -->
+    <main>
+        <!-- Serviços -->
+        <h2>Serviços</h2>
+        <section id="trabalhos" class="categoria">
+            <div class="servicos">
+               <img src="images/ia_e_dados.png" alt="ia e dados">
+               <h3>Inteligência Artificial e SQL</h3>
+               <p>Contrate um desenvolvedor especializado em Inteligência Artificial e Banco de Dados(SQL)</p>
+               <span class="preco">R$ 320/hr</span>
+               <button class="adicionar">Adicionar</button>                 
+             </div>
+
+            <div class="servicos">
+               <img src="images/ciberseguranca.png" alt="ia e dados">
+               <h3>Ciberseguranca</h3>
+               <p>Contrate um desenvolvedor especializado Cibersegurança</p>
+               <span class="preco">R$ 300/hr</span>
+               <button class="adicionar">Adicionar</button>                 
+            </div>
+            
+            <div class="servicos">
+               <img src="images/cloud_e_devops.png" alt="ia e dados">
+               <h3>Cloud e DevOps</h3>
+               <p>Contrate um desenvolvedor especializado em Nuvem e operações</p>
+               <span class="preco">R$ 240/hr</span>
+               <button class="adicionar">Adicionar</button>                 
+            </div> 
+            
+            <div class="servicos">
+               <img src="images/fullstack.png" alt="ia e dados">
+               <h3>fullstack</h3>
+               <p>Contrate um desenvolvedor especializado em Front-end e back-end</p>
+               <span class="preco">R$ 180/hr</span>
+               <button class="adicionar">Adicionar</button>                 
+            </div>            
+        </section>
+
+        <!-- Pedidos -->
+        <section id="pedido">
+            <h2>Pedidos</h2>
+            <ul id="lista-pedido"></ul>
+            <p id="total">Total: R$ 0,00</p>
+            <button id="finalizar-pedido">finalizar Pedido</button>
+        </section>
+
+        <!-- Suporte -->
+        <section id="suporte">
+            <h2>Suporte</h2>
+            <p>Entre em contato com o suporte</p>
+            <div class="redes-sociais">
+                <a href="https://intagram.com/nicolas_vanzo">Instagram</a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+     <footer>
+        <p>&copy; Todos os direitos reservados</p>
+        <p><em>Desenvolvido por</em><a href="https://www.linkedin.com/in/nicolas-vanzo-423631312/"> Nicolas Vanzo</a></p>
+     </footer>
+
+     <script src="script.js"></script>
 </body>
 </html>
